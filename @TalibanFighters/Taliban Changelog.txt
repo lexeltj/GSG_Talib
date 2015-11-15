@@ -1,0 +1,16 @@
+RC5
+- Fixed various clipping issues.
+
+RC4
+- Added (No Hat) versions of the uniforms, as well as adding relevant units to have them available.
+- Added more civilians to the mix.
+
+RC3
+- Fixed a distance LOD issue with the units (thanks to phronk)
+- Fixed a faction error, the Taliban Technical referenced the PIF, even though the units were not part of the pack.
+
+RC2
+- Removed First Aid Kits
+- Added Afghan Civilians. Due to current skill only males are included, females will be added if possible down the line
+- Removed A2 hands and replaced them with A3 models.
+- Added a "Taliban Technical", which is essentially an Armed Offroad for now.
