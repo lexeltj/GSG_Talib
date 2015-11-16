@@ -1,5 +1,0 @@
-///////<HEADER>///////
-prefix=taliban_fighters
-Pbo Type is: Arma Addon
-Sha: 'CAA7A4D150F3B3E87CE5BE91D2DE4A1F901B81BF'
-//////</HEADER>//////

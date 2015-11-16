@@ -1,5 +1,5 @@
 ///////<HEADER>///////
-prefix=gsg_talib
+prefix=taliban_fighters
 Pbo Type is: Arma Addon
-Sha: 'C41F90654A42A31D3985361CA02E8666875C3F56'
+Sha: 'B2C5EC99D3999794239B1ED78E1C4365762A5C3C'
 //////</HEADER>//////
