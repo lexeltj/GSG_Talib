@@ -38,24 +38,24 @@ class CfgFactionClasses
 	class AFGCIV
 	{
 		displayName = "Afghan Civilians";
-		flag = "gsg_talib\data\Flags\flag_afghanistan_co.paa";
-		icon = "gsg_talib\data\cfgfactionclasses_afgciv.paa";
+		flag = "taliban_fighters\data\Flags\flag_afghanistan_co.paa";
+		icon = "taliban_fighters\data\cfgfactionclasses_afgciv.paa";
 		priority = 1;
 		side = 3;
 	};
 	class Tban
 	{
 		displayName = "Taliban";
-		flag = "gsg_talib\data\Aggressor\flag_taliban_co.paa";
-		icon = "gsg_talib\data\cfgfactionclasses_Tban.paa";
+		flag = "taliban_fighters\data\Aggressor\flag_taliban_co.paa";
+		icon = "taliban_fighters\data\cfgfactionclasses_Tban.paa";
 		priority = 1;
 		side = 0;
 	};
 	class TbanGSG
 	{
 		displayName = "TalibanGSG";
-		flag = "gsg_talib\data\Aggressor\flag_taliban_co.paa";
-		icon = "gsg_talib\data\cfgfactionclasses_Tban.paa";
+		flag = "taliban_fighters\data\Aggressor\flag_taliban_co.paa";
+		icon = "taliban_fighters\data\cfgfactionclasses_Tban.paa";
 		priority = 1;
 		side = 0;
 	};
@@ -350,7 +350,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry"};
 		respawnLinkedItems[] = {"V_HarnessO_gry"};
-		model = "gsg_talib\Uniforms\Afghan_01";
+		model = "taliban_fighters\Uniforms\Afghan_01";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan01";
 	};
@@ -375,7 +375,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry"};
 		respawnLinkedItems[] = {"V_HarnessO_gry"};
-		model = "gsg_talib\Uniforms\Afghan_01NH";
+		model = "taliban_fighters\Uniforms\Afghan_01NH";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan01NH";
 	};
@@ -400,7 +400,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn"};
-		model = "gsg_talib\Uniforms\Afghan_02";
+		model = "taliban_fighters\Uniforms\Afghan_02";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan02";
 	};
@@ -425,7 +425,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn"};
-		model = "gsg_talib\Uniforms\Afghan_02NH";
+		model = "taliban_fighters\Uniforms\Afghan_02NH";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan02";
 	};
@@ -450,7 +450,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn"};
-		model = "gsg_talib\Uniforms\Afghan_03";
+		model = "taliban_fighters\Uniforms\Afghan_03";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan03";
 	};
@@ -475,7 +475,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn"};
-		model = "gsg_talib\Uniforms\Afghan_03NH";
+		model = "taliban_fighters\Uniforms\Afghan_03NH";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan03NH";
 	};
@@ -500,7 +500,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry"};
 		respawnLinkedItems[] = {"V_HarnessO_gry"};
-		model = "gsg_talib\Uniforms\Afghan_04";
+		model = "taliban_fighters\Uniforms\Afghan_04";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan04";
 	};
@@ -525,7 +525,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_gry"};
-		model = "gsg_talib\Uniforms\Afghan_05";
+		model = "taliban_fighters\Uniforms\Afghan_05";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan05";
 	};
@@ -550,7 +550,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn"};
-		model = "gsg_talib\Uniforms\Afghan_06";
+		model = "taliban_fighters\Uniforms\Afghan_06";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan06";
 	};
@@ -575,7 +575,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn"};
-		model = "gsg_talib\Uniforms\Afghan_06NH";
+		model = "taliban_fighters\Uniforms\Afghan_06NH";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan06NH";
 	};
@@ -600,7 +600,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn"};
-		model = "gsg_talib\Uniforms\Afghan_03";
+		model = "taliban_fighters\Uniforms\Afghan_03";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan03";
 	};
@@ -626,7 +626,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn"};
-		model = "gsg_talib\Uniforms\Afghan_01";
+		model = "taliban_fighters\Uniforms\Afghan_01";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan01";
 	};
@@ -652,7 +652,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn"};
-		model = "gsg_talib\Uniforms\Afghan_01NH";
+		model = "taliban_fighters\Uniforms\Afghan_01NH";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan01NH";
 	};
@@ -678,7 +678,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn"};
-		model = "gsg_talib\Uniforms\Afghan_02";
+		model = "taliban_fighters\Uniforms\Afghan_02";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan02";
 	};
@@ -705,7 +705,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn"};
-		model = "gsg_talib\Uniforms\Afghan_02NH";
+		model = "taliban_fighters\Uniforms\Afghan_02NH";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan02NH";
 	};
@@ -732,7 +732,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn"};
-		model = "gsg_talib\Uniforms\Afghan_03";
+		model = "taliban_fighters\Uniforms\Afghan_03";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan03";
 	};
@@ -758,7 +758,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn"};
-		model = "gsg_talib\Uniforms\Afghan_03NH";
+		model = "taliban_fighters\Uniforms\Afghan_03NH";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan03NH";
 	};
@@ -784,7 +784,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn"};
-		model = "gsg_talib\Uniforms\Afghan_04";
+		model = "taliban_fighters\Uniforms\Afghan_04";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan04";
 	};
@@ -810,7 +810,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn"};
-		model = "gsg_talib\Uniforms\Afghan_05";
+		model = "taliban_fighters\Uniforms\Afghan_05";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan05";
 	};
@@ -836,7 +836,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn"};
-		model = "gsg_talib\Uniforms\Afghan_06";
+		model = "taliban_fighters\Uniforms\Afghan_06";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan06";
 	};
@@ -862,7 +862,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn"};
-		model = "gsg_talib\Uniforms\Afghan_06NH";
+		model = "taliban_fighters\Uniforms\Afghan_06NH";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan06NH";
 	};
@@ -887,7 +887,7 @@ class CfgVehicles
 		respawnMagazines[] = {};
 		linkedItems[] = {};
 		respawnLinkedItems[] = {};
-		model = "gsg_talib\Uniforms\Afghan_01";
+		model = "taliban_fighters\Uniforms\Afghan_01";
 		modelSides[] = {3};
 		headgearProbability = 0;
 		uniformClass = "U_Afghan01";
@@ -913,7 +913,7 @@ class CfgVehicles
 		respawnMagazines[] = {};
 		linkedItems[] = {};
 		respawnLinkedItems[] = {};
-		model = "gsg_talib\Uniforms\Afghan_01NH";
+		model = "taliban_fighters\Uniforms\Afghan_01NH";
 		modelSides[] = {3};
 		headgearProbability = 0;
 		uniformClass = "U_Afghan01NH";
@@ -939,7 +939,7 @@ class CfgVehicles
 		respawnMagazines[] = {};
 		linkedItems[] = {};
 		respawnLinkedItems[] = {};
-		model = "gsg_talib\Uniforms\Afghan_02";
+		model = "taliban_fighters\Uniforms\Afghan_02";
 		modelSides[] = {3};
 		headgearProbability = 0;
 		uniformClass = "U_Afghan02";
@@ -965,7 +965,7 @@ class CfgVehicles
 		respawnMagazines[] = {};
 		linkedItems[] = {};
 		respawnLinkedItems[] = {};
-		model = "gsg_talib\Uniforms\Afghan_02NH";
+		model = "taliban_fighters\Uniforms\Afghan_02NH";
 		modelSides[] = {3};
 		headgearProbability = 0;
 		uniformClass = "U_Afghan02NH";
@@ -991,7 +991,7 @@ class CfgVehicles
 		respawnMagazines[] = {};
 		linkedItems[] = {};
 		respawnLinkedItems[] = {};
-		model = "gsg_talib\Uniforms\Afghan_03";
+		model = "taliban_fighters\Uniforms\Afghan_03";
 		modelSides[] = {3};
 		headgearProbability = 0;
 		uniformClass = "U_Afghan03";
@@ -1017,7 +1017,7 @@ class CfgVehicles
 		respawnMagazines[] = {};
 		linkedItems[] = {};
 		respawnLinkedItems[] = {};
-		model = "gsg_talib\Uniforms\Afghan_03NH";
+		model = "taliban_fighters\Uniforms\Afghan_03NH";
 		modelSides[] = {3};
 		headgearProbability = 0;
 		uniformClass = "U_Afghan03NH";
@@ -1043,7 +1043,7 @@ class CfgVehicles
 		respawnMagazines[] = {};
 		linkedItems[] = {};
 		respawnLinkedItems[] = {};
-		model = "gsg_talib\Uniforms\Afghan_04";
+		model = "taliban_fighters\Uniforms\Afghan_04";
 		modelSides[] = {3};
 		headgearProbability = 0;
 		uniformClass = "U_Afghan04";
@@ -1069,7 +1069,7 @@ class CfgVehicles
 		respawnMagazines[] = {};
 		linkedItems[] = {};
 		respawnLinkedItems[] = {};
-		model = "gsg_talib\Uniforms\Afghan_05";
+		model = "taliban_fighters\Uniforms\Afghan_05";
 		modelSides[] = {3};
 		headgearProbability = 0;
 		uniformClass = "U_Afghan05";
@@ -1095,7 +1095,7 @@ class CfgVehicles
 		respawnMagazines[] = {};
 		linkedItems[] = {};
 		respawnLinkedItems[] = {};
-		model = "gsg_talib\Uniforms\Afghan_06";
+		model = "taliban_fighters\Uniforms\Afghan_06";
 		modelSides[] = {3};
 		headgearProbability = 0;
 		uniformClass = "U_Afghan06";
@@ -1121,7 +1121,7 @@ class CfgVehicles
 		respawnMagazines[] = {};
 		linkedItems[] = {};
 		respawnLinkedItems[] = {};
-		model = "gsg_talib\Uniforms\Afghan_06NH";
+		model = "taliban_fighters\Uniforms\Afghan_06NH";
 		modelSides[] = {3};
 		headgearProbability = 0;
 		uniformClass = "U_Afghan06NH";
@@ -1227,7 +1227,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellGreen","SmokeShellBlue","rhs_mag_9x19_17","rhs_mag_9x19_17","rhs_mag_9x19_17"};
 		linkedItems[] = {"V_HarnessO_gry","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		model = "gsg_talib\Uniforms\Afghan_03";
+		model = "taliban_fighters\Uniforms\Afghan_03";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan03";
 	};
@@ -1253,7 +1253,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellGreen","SmokeShellBlue","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_HarnessO_gry","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		model = "gsg_talib\Uniforms\Afghan_01";
+		model = "taliban_fighters\Uniforms\Afghan_01";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan01";
 	};
@@ -1279,7 +1279,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellGreen","SmokeShellBlue","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_HarnessO_gry","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		model = "gsg_talib\Uniforms\Afghan_01NH";
+		model = "taliban_fighters\Uniforms\Afghan_01NH";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan01NH";
 	};
@@ -1304,7 +1304,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellGreen","SmokeShellBlue","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		model = "gsg_talib\Uniforms\Afghan_02";
+		model = "taliban_fighters\Uniforms\Afghan_02";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan02";
 	};
@@ -1329,7 +1329,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellGreen","SmokeShellBlue","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VOG25","rhs_VG40OP_red","rhs_VG40OP_red","rhs_VG40OP_white","rhs_VG40OP_white"};
 		linkedItems[] = {"V_HarnessO_gry","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		model = "gsg_talib\Uniforms\Afghan_02NH";
+		model = "taliban_fighters\Uniforms\Afghan_02NH";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan02";
 	};
@@ -1356,7 +1356,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellGreen","SmokeShellBlue","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_rpg7_PG7VL_mag"};
 		linkedItems[] = {"V_HarnessO_gry","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		model = "gsg_talib\Uniforms\Afghan_03";
+		model = "taliban_fighters\Uniforms\Afghan_03";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan03";
 	};
@@ -1383,7 +1383,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellGreen","SmokeShellBlue","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9k38_rocket"};
 		linkedItems[] = {"V_HarnessO_gry","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		model = "gsg_talib\Uniforms\Afghan_03NH";
+		model = "taliban_fighters\Uniforms\Afghan_03NH";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan03NH";
 	};
@@ -1412,7 +1412,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellGreen","SmokeShellBlue","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_HarnessO_gry","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		model = "gsg_talib\Uniforms\Afghan_04";
+		model = "taliban_fighters\Uniforms\Afghan_04";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan04";
 	};
@@ -1439,7 +1439,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellGreen","SmokeShellBlue","rhs_100Rnd_762x54mmR","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_gry","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		model = "gsg_talib\Uniforms\Afghan_05";
+		model = "taliban_fighters\Uniforms\Afghan_05";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan05";
 	};
@@ -1465,7 +1465,7 @@ class CfgVehicles
 		magazines[] = {"HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellGreen","SmokeShellBlue","rhs_100Rnd_762x54mmR","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		respawnMagazines[] = {"HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellGreen","SmokeShellBlue","rhs_100Rnd_762x54mmR","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};		linkedItems[] = {"V_HarnessO_gry","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		model = "gsg_talib\Uniforms\Afghan_06";
+		model = "taliban_fighters\Uniforms\Afghan_06";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan06";
 	};
@@ -1491,7 +1491,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellGreen","SmokeShellBlue","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		model = "gsg_talib\Uniforms\Afghan_06NH";
+		model = "taliban_fighters\Uniforms\Afghan_06NH";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan06NH";
 	};
@@ -1522,7 +1522,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellGreen","SmokeShellBlue","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_30Rnd_762x39mm","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		model = "gsg_talib\Uniforms\Afghan_01";
+		model = "taliban_fighters\Uniforms\Afghan_01";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan01";
 	};
@@ -1548,7 +1548,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellGreen","SmokeShellBlue","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		model = "gsg_talib\Uniforms\Afghan_01NH";
+		model = "taliban_fighters\Uniforms\Afghan_01NH";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan01NH";
 	};
@@ -1574,7 +1574,7 @@ class CfgVehicles
 		respawnMagazines[] = {};
 		linkedItems[] = {"V_HarnessO_gry","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		model = "gsg_talib\Uniforms\Afghan_04";
+		model = "taliban_fighters\Uniforms\Afghan_04";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan04";
 	};
@@ -1599,7 +1599,7 @@ class CfgVehicles
 		respawnMagazines[] = {"HandGrenade","HandGrenade","SmokeShell","SmokeShell","SmokeShellRed","SmokeShellGreen","SmokeShellBlue","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S","rhs_mag_9x18_12_57N181S"};
 		linkedItems[] = {"V_HarnessO_gry","ItemMap","ItemCompass","ItemWatch","ItemRadio","rhs_tsh4"};
 		respawnLinkedItems[] = {"V_HarnessOSpec_brn","ItemMap","ItemCompass","ItemWatch","ItemRadio","rhs_tsh4"};
-		model = "gsg_talib\Uniforms\Afghan_03NH";
+		model = "taliban_fighters\Uniforms\Afghan_03NH";
 		modelSides[] = {3};
 		uniformClass = "U_Afghan03NH";
 	};
@@ -1620,9 +1620,9 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Afghan Clothes 1";
 		picture = "\A3\characters_f\data\ui\icon_U_Citizen_ca.paa";
-		model = "gsg_talib\Uniforms\Afghan_01.p3d";
+		model = "taliban_fighters\Uniforms\Afghan_01.p3d";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"gsg_talib\data\tak_civil01_1_co.paa"};
+		hiddenSelectionsTextures[] = {"taliban_fighters\data\tak_civil01_1_co.paa"};
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -1638,9 +1638,9 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Afghan Clothes 2";
 		picture = "\A3\characters_f\data\ui\icon_U_Citizen_ca.paa";
-		model = "gsg_talib\Uniforms\Afghan_02.p3d";
+		model = "taliban_fighters\Uniforms\Afghan_02.p3d";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"gsg_talib\data\tak_civil02_1_co.paa"};
+		hiddenSelectionsTextures[] = {"taliban_fighters\data\tak_civil02_1_co.paa"};
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -1656,9 +1656,9 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Afghan Clothes 3";
 		picture = "\A3\characters_f\data\ui\icon_U_Citizen_ca.paa";
-		model = "gsg_talib\Uniforms\Afghan_03.p3d";
+		model = "taliban_fighters\Uniforms\Afghan_03.p3d";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"gsg_talib\data\tak_civil03_1_co.paa"};
+		hiddenSelectionsTextures[] = {"taliban_fighters\data\tak_civil03_1_co.paa"};
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -1674,9 +1674,9 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Afghan Clothes 4";
 		picture = "\A3\characters_f\data\ui\icon_U_Citizen_ca.paa";
-		model = "gsg_talib\Uniforms\Afghan_04.p3d";
+		model = "taliban_fighters\Uniforms\Afghan_04.p3d";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"gsg_talib\data\tak_civil04_1_co.paa"};
+		hiddenSelectionsTextures[] = {"taliban_fighters\data\tak_civil04_1_co.paa"};
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -1692,9 +1692,9 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Afghan Clothes 5";
 		picture = "\A3\characters_f\data\ui\icon_U_Citizen_ca.paa";
-		model = "gsg_talib\Uniforms\Afghan_05.p3d";
+		model = "taliban_fighters\Uniforms\Afghan_05.p3d";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"gsg_talib\data\tak_civil05_1_co.paa"};
+		hiddenSelectionsTextures[] = {"taliban_fighters\data\tak_civil05_1_co.paa"};
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -1710,9 +1710,9 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Afghan Clothes 6";
 		picture = "\A3\characters_f\data\ui\icon_U_Citizen_ca.paa";
-		model = "gsg_talib\Uniforms\Afghan_06.p3d";
+		model = "taliban_fighters\Uniforms\Afghan_06.p3d";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"gsg_talib\data\tak_civil06_1_co.paa"};
+		hiddenSelectionsTextures[] = {"taliban_fighters\data\tak_civil06_1_co.paa"};
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -1728,9 +1728,9 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Afghan Clothes 1 (No Hat)";
 		picture = "\A3\characters_f\data\ui\icon_U_Citizen_ca.paa";
-		model = "gsg_talib\Uniforms\Afghan_01NH.p3d";
+		model = "taliban_fighters\Uniforms\Afghan_01NH.p3d";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"gsg_talib\data\tak_civil01_1_co.paa"};
+		hiddenSelectionsTextures[] = {"taliban_fighters\data\tak_civil01_1_co.paa"};
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -1746,9 +1746,9 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Afghan Clothes 2 (No Hat)";
 		picture = "\A3\characters_f\data\ui\icon_U_Citizen_ca.paa";
-		model = "gsg_talib\Uniforms\Afghan_02NH.p3d";
+		model = "taliban_fighters\Uniforms\Afghan_02NH.p3d";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"gsg_talib\data\tak_civil02_1_co.paa"};
+		hiddenSelectionsTextures[] = {"taliban_fighters\data\tak_civil02_1_co.paa"};
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -1763,9 +1763,9 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Afghan Clothes 3 (No Hat)";
 		picture = "\A3\characters_f\data\ui\icon_U_Citizen_ca.paa";
-		model = "gsg_talib\Uniforms\Afghan_03NH.p3d";
+		model = "taliban_fighters\Uniforms\Afghan_03NH.p3d";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"gsg_talib\data\tak_civil03_1_co.paa"};
+		hiddenSelectionsTextures[] = {"taliban_fighters\data\tak_civil03_1_co.paa"};
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -1781,9 +1781,9 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Afghan Clothes 6 (No Hat)";
 		picture = "\A3\characters_f\data\ui\icon_U_Citizen_ca.paa";
-		model = "gsg_talib\Uniforms\Afghan_06NH.p3d";
+		model = "taliban_fighters\Uniforms\Afghan_06NH.p3d";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"gsg_talib\data\tak_civil06_1_co.paa"};
+		hiddenSelectionsTextures[] = {"taliban_fighters\data\tak_civil06_1_co.paa"};
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -1799,14 +1799,14 @@ class CfgWeapons
 		author = "$STR_A3_Bohemia_Interactive";
 		_generalMacro = "Afghan_01Hat";
 		displayName = "Afghan Hat 1";
-		picture = "gsg_talib\data\ui\Afghan_01Hat.paa";
-		model = "gsg_talib\gear\Afghan_01Hat";
+		picture = "taliban_fighters\data\ui\Afghan_01Hat.paa";
+		model = "taliban_fighters\gear\Afghan_01Hat";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"gsg_talib\data\tak_civil01_1_co.paa"};
+		hiddenSelectionsTextures[] = {"taliban_fighters\data\tak_civil01_1_co.paa"};
 		class ItemInfo: ItemInfo
 		{
 			mass = 4;
-			uniformModel = "gsg_talib\gear\Afghan_01Hat.p3d";
+			uniformModel = "taliban_fighters\gear\Afghan_01Hat.p3d";
 			allowedSlots[] = {801,901,701,605};
 			modelSides[] = {6};
 			armor = 0;
@@ -1818,14 +1818,14 @@ class CfgWeapons
 		author = "$STR_A3_Bohemia_Interactive";
 		_generalMacro = "Afghan_01Hat";
 		displayName = "Afghan Hat 2";
-		picture = "gsg_talib\data\ui\Afghan_02Hat.paa";
-		model = "gsg_talib\gear\Afghan_02Hat";
+		picture = "taliban_fighters\data\ui\Afghan_02Hat.paa";
+		model = "taliban_fighters\gear\Afghan_02Hat";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"gsg_talib\data\tak_civil02_1_co.paa"};
+		hiddenSelectionsTextures[] = {"taliban_fighters\data\tak_civil02_1_co.paa"};
 		class ItemInfo: ItemInfo
 		{
 			mass = 4;
-			uniformModel = "gsg_talib\gear\Afghan_02Hat.p3d";
+			uniformModel = "taliban_fighters\gear\Afghan_02Hat.p3d";
 			allowedSlots[] = {801,901,701,605};
 			modelSides[] = {6};
 			armor = 0;
@@ -1837,14 +1837,14 @@ class CfgWeapons
 		author = "$STR_A3_Bohemia_Interactive";
 		_generalMacro = "Afghan_01Hat";
 		displayName = "Afghan Hat 3";
-		picture = "gsg_talib\data\ui\Afghan_03Hat.paa";
-		model = "gsg_talib\gear\Afghan_03Hat";
+		picture = "taliban_fighters\data\ui\Afghan_03Hat.paa";
+		model = "taliban_fighters\gear\Afghan_03Hat";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"gsg_talib\data\tak_civil03_1_co.paa"};
+		hiddenSelectionsTextures[] = {"taliban_fighters\data\tak_civil03_1_co.paa"};
 		class ItemInfo: ItemInfo
 		{
 			mass = 4;
-			uniformModel = "gsg_talib\gear\Afghan_03Hat.p3d";
+			uniformModel = "taliban_fighters\gear\Afghan_03Hat.p3d";
 			allowedSlots[] = {801,901,701,605};
 			modelSides[] = {6};
 			armor = 0;
@@ -1856,14 +1856,14 @@ class CfgWeapons
 		author = "$STR_A3_Bohemia_Interactive";
 		_generalMacro = "Afghan_01Hat";
 		displayName = "Afghan Hat 4";
-		picture = "gsg_talib\data\UI\Afghan_04Hat.paa";
-		model = "gsg_talib\gear\Afghan_04Hat";
+		picture = "taliban_fighters\data\UI\Afghan_04Hat.paa";
+		model = "taliban_fighters\gear\Afghan_04Hat";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"gsg_talib\data\tak_civil04_1_co.paa"};
+		hiddenSelectionsTextures[] = {"taliban_fighters\data\tak_civil04_1_co.paa"};
 		class ItemInfo: ItemInfo
 		{
 			mass = 4;
-			uniformModel = "gsg_talib\gear\Afghan_04Hat.p3d";
+			uniformModel = "taliban_fighters\gear\Afghan_04Hat.p3d";
 			allowedSlots[] = {801,901,701,605};
 			modelSides[] = {6};
 			armor = 0;
@@ -1875,14 +1875,14 @@ class CfgWeapons
 		author = "$STR_A3_Bohemia_Interactive";
 		_generalMacro = "Afghan_01Hat";
 		displayName = "Afghan Hat 5";
-		picture = "gsg_talib\data\UI\Afghan_05Hat.paa";
-		model = "gsg_talib\gear\Afghan_05Hat";
+		picture = "taliban_fighters\data\UI\Afghan_05Hat.paa";
+		model = "taliban_fighters\gear\Afghan_05Hat";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"gsg_talib\data\tak_civil05_1_co.paa"};
+		hiddenSelectionsTextures[] = {"taliban_fighters\data\tak_civil05_1_co.paa"};
 		class ItemInfo: ItemInfo
 		{
 			mass = 4;
-			uniformModel = "gsg_talib\gear\Afghan_05Hat.p3d";
+			uniformModel = "taliban_fighters\gear\Afghan_05Hat.p3d";
 			allowedSlots[] = {801,901,701,605};
 			modelSides[] = {6};
 			armor = 0;
@@ -1894,14 +1894,14 @@ class CfgWeapons
 		author = "$STR_A3_Bohemia_Interactive";
 		_generalMacro = "Afghan_01Hat";
 		displayName = "Afghan Hat 6";
-		picture = "gsg_talib\data\ui\Afghan_06Hat.paa";
-		model = "gsg_talib\gear\Afghan_06Hat";
+		picture = "taliban_fighters\data\ui\Afghan_06Hat.paa";
+		model = "taliban_fighters\gear\Afghan_06Hat";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"gsg_talib\data\tak_civil06_1_co.paa"};
+		hiddenSelectionsTextures[] = {"taliban_fighters\data\tak_civil06_1_co.paa"};
 		class ItemInfo: ItemInfo
 		{
 			mass = 4;
-			uniformModel = "gsg_talib\gear\Afghan_06Hat.p3d";
+			uniformModel = "taliban_fighters\gear\Afghan_06Hat.p3d";
 			allowedSlots[] = {801,901,701,605};
 			modelSides[] = {6};
 			armor = 0;
