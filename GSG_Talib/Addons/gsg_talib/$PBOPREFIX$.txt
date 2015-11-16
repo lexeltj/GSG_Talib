@@ -1,0 +1,5 @@
+///////<HEADER>///////
+prefix=gsg_talib
+Pbo Type is: Arma Addon
+Sha: 'C41F90654A42A31D3985361CA02E8666875C3F56'
+//////</HEADER>//////
